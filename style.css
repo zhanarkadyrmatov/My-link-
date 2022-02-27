@@ -1,0 +1,111 @@
+body {
+  color: #fff;
+}
+
+.container {
+  border-radius: 10px;
+  width: 500px;
+  height: 700px;
+  background-color: rgb(29, 8, 37);
+  margin: auto;
+}
+
+.header {
+  padding: 50px 0 15px 0;
+  text-align: center;
+}
+
+.header img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.header h1 {
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.header p {
+  color: #999;
+}
+
+.main {
+  padding-left: 35px;
+  display: grid;
+  grid-template-columns: 400px;
+  grid-template-rows: 50px 50px 50px 50px;
+  grid-gap: 20px;
+}
+
+.main li {
+  font-size: 19px;
+  list-style: none;
+}
+
+.facebook li {
+  width: 350px;
+  background-color: #174180;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: ;
+}
+.facebook a {
+  text-decoration: none;
+  color: #fff;
+}
+.facebook img {
+  padding: 10px;
+}
+
+.telegram li {
+  width: 350px;
+  background-color: #3764a3;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: ;
+}
+.telegram a {
+  text-decoration: none;
+  color: #fff;
+}
+.telegram img {
+  padding: 10px;
+}
+
+.instagram li {
+  width: 350px;
+  background-color: rgb(201, 24, 50);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: ;
+}
+.instagram a {
+  text-decoration: none;
+  color: #fff;
+}
+.instagram img {
+  padding: 10px;
+}
+
+.whatsapp li {
+  width: 350px;
+  background-color: #159711;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: ;
+}
+.whatsapp a {
+  text-decoration: none;
+  color: #fff;
+}
+.whatsapp img {
+  padding: 10px;
+}
